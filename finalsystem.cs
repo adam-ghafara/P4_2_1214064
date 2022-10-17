@@ -12,9 +12,9 @@ namespace P4_2_1214064
         {
             Console.WriteLine("Nama-nama Mobil!");
             Console.WriteLine("Pilih Tier?");
-            Console.WriteLine("Tier 1");
-            Console.WriteLine("Tier 2");
-            Console.WriteLine("Tier 3");
+            Console.WriteLine("1. Tier 1");
+            Console.WriteLine("2. Tier 2");
+            Console.WriteLine("3. Tier 3");
             int tiers = int.Parse(Console.ReadLine());
 
             switch (tiers)
@@ -46,7 +46,7 @@ namespace P4_2_1214064
                 case 3: Console.WriteLine("Tier 3"); Console.WriteLine("Berikut Mobil-mobil dalam tier ini: ");
                     car_tier3 ptier3_1 = new car_tier3("Lamborghini Huracan", 999000000);
                     car_tier3 ptier3_2 = new car_tier3("Ferrari 458", 999000000);
-                    car_tier3 ptier3_3 = new car_tier3("Acura NSX", 750000000);
+                    car_tier3 ptier3_3 = new car_tier3("Acura NSX 2018", 750000000);
                     Console.WriteLine("+ {0} : Rp.\"{1}\"", ptier3_1.CarName3, ptier3_1.CarPrice3);
                     Console.WriteLine("+ {0} : Rp.\"{1}\"", ptier3_2.CarName3, ptier3_2.CarPrice3);
                     Console.WriteLine("+ {0} : Rp.\"{1}\"", ptier3_3.CarName3, ptier3_3.CarPrice3);
